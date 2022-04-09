@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Students Survey Form</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <div id="heading">
+    <h1 id=title>Students Form</h1>
+    <p id="description">We love to know about students' interest on </p>
+    </div>
+    <div id="main">
+        <form id="survey-form">
+        <div id="input-fields">
+            <label id="name-label"><b>Name:</b></label>
+            <input id="name" type="name" name="name" class="form" required placeholder="Enter Your Full Name"><br>
+            <br>
+            <label id="class-label"><b>Class:</b></label>
+            <input id="Class" type="Class" name=Class" class="form" required placeholder="Enter Your Class"><br>
+            <br>
+            <label id="email-label"><b>Email:</b></label>
+            <input id="email" type="email" name="email" class="form" required placeholder="muza@gmail.com"><br>
+            <br>
+            <label id="number-label"><b>Age:</b></label>
+            <input id="number" type="number" name="number" class="form" min="5" max="99" placeholder="12+">
+         </div>
+         <div id="dropdown-div"><br>
+            <label id="dropdown-label"><strong>How do you spend your free time?: </strong></label><br>
+            <select id="dropdown" name="code-lang" class="form">
+              <option value="-">----</option>
+                <option value="Physical"> Physical exercise</option>
+                <option value="Reading">Reading and podcasts</option>
+                <option value="Time">Time with family and friends</option>
+                <option value="Creative">Creative pursuits</option>
+                <option value="Volunteering">Volunteering</option>
+                <option value="Movies">Watching Movies</option>
+                <option value="traveling">traveling</option>
+                <option value="soccer">play soccer</option>
+                <option value="sleeping">sleeping</option>
+            </select>
+         </div>
+         <div id="button-area">
+             <br>
+            <label id="job-label"><b>which subject is best for you?:</b></label><br>
+            <input type="radio" class="radio-inline" name="gender" value="Computer" checked>Computer Science & Information Systems<br>
+            <input type="radio" class="radio-inline" name="gender" value="Engineering"> Engineering & Technology<br>
+            <input type="radio" class="radio-inline" name="gender" value="Business"> Business & Management Studies<br>
+            <input type="radio" class="radio-inline" name="gender" value="Architecture"> Architecture
+          </div>
+          <div id="button-area"><br>
+            <label id="os-label"><b>which food do you prefer to eat: </b></label><br>
+            <input type="checkbox" name="os1" value=" Homemade" checked> Homemade food that includes rice, fish, bread <br>
+            <input type="checkbox" name="os2" value="pizza"> pizza, sandwiches, hamburger<br>
+            <input type="checkbox" name="0s3" value="dineout">dineout<br>
+          </div>
+
+          <div id="dropdown"><br><br>
+            <label id="dropdown-label"><strong>What do you want to be in the future: </strong></label><br>
+            <select id="dropdown" name="code-lang" class="form"><br><br>
+              <option value="-">----</option>
+                <option value="Teacher">Teacher</option>
+                <option value="Doctors">Doctors/Nurses</option>
+                <option value="Postal">Postal Workers</option>
+                <option value="Armed">Armed Forces</option>
+                <option value="Businessman">Businessman</option>
+                <option value="Engineer">Engineer</option>
+                <option value="Volunteer">Volunteer</option>
+                <option value="Driver">Driver</option>
+               
+            </select>
+         </div>
+          <div id="button-area"><br><br>
+            <label id="os-label"><b>What are you interested in?:</b></label><br>
+            <input type="checkbox" name="tech1" value="Environmental"> Environmental conservation<br>
+            <input type="checkbox" name="tech2" value="Nature"> Nature<br>
+            <input type="checkbox" name="tech3" value="Animal"> Animal rights<br>
+            <input type="checkbox" name="tech3" value="Art"> Art<br>
+            <input type="checkbox" name="tech3" value="Music"> Music<br>
+            <input type="checkbox" name="tech3" value="Research">Research<br>
+          </div>
+
+
+          <div id="ending"><br><br>
+            <label id="comments-label">Do you have any suggestion about this survey?</label><br>
+            <textarea style= height:120px;" class="form" placeholder="Enter your comment here..."></textarea><br><br>
+            <input id="submit" type="submit"  class="form">
+          </div>
+        </form>
+    </div>
+
+</body>
+
+</html>
